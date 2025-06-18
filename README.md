@@ -4,7 +4,7 @@ Demoing Retrieval-Augmented Generation through simple Jupyterlab python progam. 
 
 ## Funcitonality
 
-- Loads a text file example.txt (for this example I've loaded it with a Wikipedia page)
+- Loads a text file example.txt (for example a Wikipedia page pasted to example.txt)
 - Splits it into overlapping chunks using LangChain
 - Embeds the chunks locally using `all-MiniLM-L6-v2`
 - Stores embeddings in a FAISS vector index
@@ -33,6 +33,7 @@ Install required packages:
 ## How to use 
 
 Open rag_demo.ipynb in JupyterLab
+Paste a wikipedia page text into example.txt
 
 Execute the cells:
 

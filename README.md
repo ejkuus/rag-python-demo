@@ -2,7 +2,7 @@
 
 Demoing Retrieval-Augmented Generation through simple Jupyterlab python progam. This is a simple yet complete RAG pipeline built with local components so no OpenAI keys, no API calls, and no cloud dependencies needed.
 
-## Funcitonality
+## Functionality
 
 - Loads a text file example.txt (for example a Wikipedia page pasted to example.txt)
 - Splits it into overlapping chunks using LangChain
